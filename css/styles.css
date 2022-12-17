@@ -1,0 +1,245 @@
+:root {
+--brand-color: #2E2F42;
+--text-color: #FFFFFF; 
+--caption-color: #434455;
+}
+body {
+font-family: 'Roboto', sans-serif;
+background: #E5E5E5;
+color: #2E2F42;
+}
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;  
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+.link {
+text-decoration: none;
+}
+.list {
+list-style: none;
+}
+/* -----------header--------- */
+
+.beginning {
+background: #FFFFFF;
+}
+.logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--brand-color)
+}
+.box-logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;   
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.header {
+}
+.header-item {
+}
+.header-link {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.header-link:hover,
+.header-link:focus {
+color: #404BBF;   
+}
+.contact {
+}
+.contact-item {
+}
+.contact-link {
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: var(--caption-color); 
+ 
+}
+.contact-link:hover, 
+.contact-link:focus {
+font-size: 16px;
+line-height: 1.50;   
+letter-spacing: 0.02em;
+color: #404bbf;    
+}
+/* ----------hero------------- */
+.hero {
+background-color: var(--brand-color);
+}
+.hero-title {
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+.heto-btn {
+font-family: inherit;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.18;
+display: flex;
+align-items: center;
+cursor: pointer;
+background: #4D5AE5;
+color: var(--text-color);
+}
+.heto-btn:hover,
+.heto-btn:focus {
+background: #404BBF;    
+}
+/* -------------benefits------------- */
+.benefits {
+}
+.benefits-hidden {
+}
+.benefits-list {
+}
+
+.benefits-item {
+}
+.benefits-pre-text {
+font-size: 20px;
+line-height: 1.20;
+letter-spacing: 0.02em;
+}
+.benefits-text {
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: var(--caption-color);
+}
+/* ----------item------ */
+.item {
+}
+.item-text {
+font-size: 36px;
+line-height: 1.11;    
+text-align: center;
+letter-spacing: 0.02em;
+}
+.item-list {
+}
+.item-pic {
+}
+/* ------------command--------- */
+.command {
+background: #F4F4FD;
+}
+.command-caption {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+}
+.comand-list {
+}
+.comand-item {
+}
+.command-pre-text {
+font-size: 20px;
+line-height: 1.20;    
+text-align: center;
+letter-spacing: 0.02em;   
+}
+.command-text {
+font-size: 16px;
+line-height: 1.50;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--caption-color);
+}
+/* ---------footer ----------*/
+.ending{
+background: #2E2F42;
+}
+.log {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;}
+.box-log {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.text {
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+/* --------portfolio------- */
+.portfolio {
+}
+.portfolio-list {
+}
+.portfolio-btn {
+font-family: inherit;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.50;  
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;    
+background: #F4F4FD;
+color: #4D5AE5; 
+cursor: pointer  
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+background: #404BBF;
+color: #FFFFFF;    
+}
+/* --------about------ */
+.about-list {
+}
+.about-item {
+}
+.about-pre-text {
+font-size: 20px;
+line-height: 1.20;
+letter-spacing: 0.02em;
+}
+.about-text {
+font-size: 16px;
+line-height: 1.50;   
+letter-spacing: 0.02em;
+color: var(--caption-color);      
+}
